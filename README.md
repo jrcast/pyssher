@@ -26,7 +26,7 @@ You can then run pyssher as follows:
 docker run -ti --rm  -v /PATH-TO-KEYS/:/pyssher/keys jrcast/pyssher -s USER@HOSTNAME:PORT -c 'echo "Greetings from $HOSTNAME"'
 ```
 
-PORT is optional. Port22 is assumed by default if you dont specify any. You can also specify more than one server by using the -s/--server runtime argument multiple times. Note that if you do specify more than one server, pyssher will not terminate if only one/some of the servers fail or disconnect. 
+PORT is optional. Port 22 is assumed by default if you dont specify any. You can also specify more than one server by using the -s/--server runtime argument multiple times. Note that if you do specify more than one server, pyssher will not terminate if only one/some of the servers fail or disconnect. 
 
 
 ## Docker
