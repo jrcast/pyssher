@@ -4,7 +4,7 @@ with open('requirements.txt') as f:
     reqs = f.read()
 
 setuptools.setup(name='pyssher',
-                 version="0.1.0",
+                 version="0.1.1",
                  description="pyssher: run commands in multiple ssh clients simultaneously",
                  author="jrcast",
                  author_email="jrcast@users.noreply.github.com",
